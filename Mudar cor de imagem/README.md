@@ -11,6 +11,9 @@ O arquivo não muda de cor com `fill: color` pelo simples fato de ele não ser r
 ```
 a tag `image` passa como parametro um `xlink:href` onde é usado uma imagem em base64 `data:image/png;base64`.
 
+![Imagem Original](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/imagemOriginal.png?raw=true)
+
+
 Em resumo a imagem é um `PNG` e não um `SVG` logo temos duas opções.
 
 1. Mudar a cor da imagem pela cor desejada pelo photoshop ou outro programa parecido assim resolvendo o problema.
@@ -24,6 +27,8 @@ Lightness: 45
 ```
 Que deixou com uma cor bem parecida.
 
+![Imagem Final](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/imagemFinal.png?raw=true)
+
 OU
 
 2. Fazer uma gambiarra totalmente desnecessaria porem divertida.
@@ -36,6 +41,8 @@ Porem para funcionar corretamente antes precisamos deixar a imagem com a cor pre
 filter: brightness(0) saturate(100%);
 }
 ```
+
+![Imagem Preta](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/imagemBlack.png?raw=true)
 
 Após isso selecione a cor desejada e a cole no input `Target color` no nosso caso a cor é `#87BF52`. Clique no botão `Compute Filters` até que a taixa de loss fique com um valor de ` This is a perfect result`. Após isso copie o filtro que lhe é dado, no nosso caso:
 
@@ -52,6 +59,9 @@ Agora adicione esse codigo a frente do primeiro filtro ficando assim:
 filter: brightness(0) saturate(100%) invert(71%) sepia(28%) saturate(732%) hue-rotate(48deg) brightness(91%) contrast(91%);
 }
 ```
+
+![Imagem Final](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/imagemFinal.png?raw=true)
+
 e pronto agora sua imagem deve estar na cor desejada.
 abaixo segue um codepen do exemplo.
 
