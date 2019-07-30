@@ -25,9 +25,10 @@ Hue shift: -90
 Saturation: 100
 Lightness: 45
 ```
+![Imagem Site1](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/site1.png?raw=true)
 Que deixou com uma cor bem parecida.
 
-![Imagem Final](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/imagemFinal.png?raw=true)
+![Imagem Site2](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/site2.png)
 
 OU
 
