@@ -45,9 +45,11 @@ filter: brightness(0) saturate(100%);
 
 ![Imagem Preta](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/imagemBlack.png?raw=true)
 
-Após isso selecione a cor desejada e a cole no input `Target color` no nosso caso a cor é `#87BF52`. Clique no botão `Compute Filters` até que a taixa de loss fique com um valor de ` This is a perfect result`. Após isso copie o filtro que lhe é dado, no nosso caso:
+Após isso selecione a cor desejada e a cole no input `Target color¹` no nosso caso a cor é `#87BF52`. Clique no botão `Compute Filters²` até que a taixa de loss fique com um valor de ` This is a perfect result³`.
 
-![Imagem CodePen]()
+![Imagem CodePen](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/codepen.png?raw=true)
+
+Após isso copie o filtro que lhe é dado `⁴`, no meu caso:
 
 ```css
 filter: invert(71%) sepia(28%) saturate(732%) hue-rotate(48deg) brightness(91%) contrast(91%);
@@ -55,13 +57,12 @@ filter: invert(71%) sepia(28%) saturate(732%) hue-rotate(48deg) brightness(91%) 
 
 Agora adicione esse codigo a frente do primeiro filtro ficando assim:
 
-**ATENÇÂO** Não crie outro filter adicione no mesmo senão ira dar errado
-
 ```css
 .imagem {
 filter: brightness(0) saturate(100%) invert(71%) sepia(28%) saturate(732%) hue-rotate(48deg) brightness(91%) contrast(91%);
 }
 ```
+**ATENÇÂO** Não crie outro filter adicione no mesmo senão ira dar errado
 
 ![Imagem Final](https://github.com/RayZyphs/conteudo-aleatorio/blob/master/Mudar%20cor%20de%20imagem/assets/imagemFinal.png?raw=true)
 
@@ -70,8 +71,4 @@ abaixo segue um codepen do exemplo.
 
 https://codepen.io/RayZyphs/pen/LwWRjg
 
-
-
-![](logo_small.png)
-
-Move along.
+Vlw.
