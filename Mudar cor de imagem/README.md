@@ -47,6 +47,8 @@ filter: brightness(0) saturate(100%);
 
 Após isso selecione a cor desejada e a cole no input `Target color` no nosso caso a cor é `#87BF52`. Clique no botão `Compute Filters` até que a taixa de loss fique com um valor de ` This is a perfect result`. Após isso copie o filtro que lhe é dado, no nosso caso:
 
+![Imagem CodePen]()
+
 ```css
 filter: invert(71%) sepia(28%) saturate(732%) hue-rotate(48deg) brightness(91%) contrast(91%);
 ```
