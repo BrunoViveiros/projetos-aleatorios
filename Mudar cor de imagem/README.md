@@ -33,7 +33,7 @@ Que deixou com uma cor bem parecida.
 OU
 
 2. Fazer uma gambiarra totalmente desnecessaria porem divertida.
-  Para isso utilizarei esse codigo do codepen https://codepen.io/sosuke/pen/Pjoqqp , ele faz com que a cor da imagem fique com a cor que voce deseja.
+  Para isso utilizarei esse codigo do codepen https://codepen.io/RayZyphs/full/GVWjrb , ele faz com que a cor da imagem fique com a cor que voce deseja.
 
 Porem para funcionar corretamente antes precisamos deixar a imagem com a cor preta. Para isso basta utilizar estes filtros em sua classe css. 
 
