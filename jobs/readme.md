@@ -11,5 +11,5 @@
 - https://www.infojobs.com.br/
 - https://www.revelo.com.br/
 - https://vulpi.com.br/
-- ttps://github.com/frontendbr/vagas
+- https://github.com/frontendbr/vagas
 - https://www.vanhack.com/
