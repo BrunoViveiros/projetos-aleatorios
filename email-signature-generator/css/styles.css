@@ -25,6 +25,7 @@ main {
 .tabs {
   width: 100%;
   z-index: 99;
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .tabs ul {
@@ -45,7 +46,6 @@ main {
   background-color: #fff;
   cursor: pointer;
 
-  border-bottom: 2px solid var(--primary-color);
   transition: color 300ms ease-out, background-color 300ms ease-out;
 }
 
