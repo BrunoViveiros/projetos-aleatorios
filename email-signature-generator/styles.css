@@ -4,6 +4,10 @@ body {
 }
 
 main {
+  position: relative;
+}
+
+section {
   width: 70%;
 
   padding: 16px;
