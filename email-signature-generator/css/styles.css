@@ -46,6 +46,7 @@ main {
   cursor: pointer;
 
   border-bottom: 2px solid var(--primary-color);
+  transition: color 300ms ease-out, background-color 300ms ease-out;
 }
 
 .tabs .tab:hover {
