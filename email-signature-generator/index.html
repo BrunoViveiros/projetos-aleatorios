@@ -31,59 +31,58 @@
   </tbody>
 </table> -->
 
-<!-- todo: form para informações -->
-<!-- todo: assinatura gerada com um table como corpo -->
-<!-- todo: botões de copiar HTML e Selecionar  copiar assinatura -->
-<!-- ? 2 - Usar base64 para imagem fixa || url para outras -->
-
-<!-- https://www.exclaimer.com/email-signature-handbook/10078-social-media-icons-email-signatures -->
-<!-- Nome, Cargo, Telefone, Email, Site, Redes Sociais, Foto -->
-<!-- Baixar e hostear os proprios icons no GITHUB -->
-
-
 <!DOCTYPE html>
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <script src="script.js"></script>
     <title>Gerador de assinatura</title>
   </head>
   <body>
     <main>
-      <section>
-        <form class="inputs">
-          <label for="name">Nome</label>
-          <input type="text" name="name" id="name" />
+      <nav class="tabs">
+        <ul>
+          <li class="tab -active">info</li>
+          <li class="tab">social</li>
+          <li class="tab">templates</li>
+        </ul>
+      </nav>
 
-          <label for="position">Cargo</label>
-          <input type="text" name="position" id="position" />
-
-          <label for="telephone">Telefone</label>
-          <input type="text" name="telephone" id="telephone" />
-
-          <label for="email">Email</label>
-          <input type="text" name="email" id="email" />
-
-          <label for="website">Site</label>
-          <input type="text" name="website" id="website" />
-
-          <label for="photo_url">URL da Foto</label>
-          <input type="text" name="photo_url" id="photo_url" />
-        </form>
-
-        <button onclick="teste()">Gerar Assinatura</button>
-
-        <div class="signature"></div>
-
-        <img style="width: 25px; height: 25px;" src="https://image.flaticon.com/icons/png/512/145/145802.png" alt="">
-      </section>
+      <section data-name="info" class="container -active">Info</section>
+      <section data-name="social" class="container">Social</section>
+      <section data-name="templates" class="container">Templates</section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
+
+<!-- 
+<form class="inputs">
+  <label for="name">Nome</label>
+  <input type="text" name="name" id="name" />
+
+  <label for="position">Cargo</label>
+  <input type="text" name="position" id="position" />
+
+  <label for="telephone">Telefone</label>
+  <input type="text" name="telephone" id="telephone" />
+
+  <label for="email">Email</label>
+  <input type="text" name="email" id="email" />
+
+  <label for="website">Site</label>
+  <input type="text" name="website" id="website" />
+
+  <label for="photo_url">URL da Foto</label>
+  <input type="text" name="photo_url" id="photo_url" />
+</form> 
+        
+<button onclick="teste()">Gerar Assinatura</button>
+-->
